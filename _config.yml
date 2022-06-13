@@ -29,11 +29,13 @@ github_username:  becevka
 # Site settings
 permalink: /:title/
 paginate: 5
+markdown: kramdown
 paginate_path: "/:num/"
 date_format: "%b %-d, %Y"
 
 # Build settings
-theme: jekyll-theme-leap-day
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
 plugins:
   - jekyll-feed
   - jekyll-paginate

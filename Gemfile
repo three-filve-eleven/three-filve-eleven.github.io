@@ -9,10 +9,10 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 3.9.2"
 
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "jekyll-theme-leap-day", "~> 0.2.0"
-
 gem "github-pages", "~> 226", group: :jekyll_plugins
+
+gem "minimal-mistakes-jekyll", "~>4.24.0"
+
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -23,4 +23,6 @@ group :jekyll_plugins do
   gem 'jekyll-paginate', "~>1.1.0"
   gem 'jekyll-seo-tag', "~>2.8.0"
   gem 'jekyll-sitemap', "~>1.4.0"
+  gem "jekyll-include-cache", "~>0.2.1"
+  gem "jekyll-remote-theme", "~>0.4.3"
 end
